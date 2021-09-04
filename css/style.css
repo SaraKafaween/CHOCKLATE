@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    width: 900px;
+    margin: auto;
+
+}
+
+header{
+    display: grid;
+    grid-template-columns: 70px auto;
+;
+
+}
+header h4{
+   font-weight: 800;
+   font-size: 30px;
+   font-family:'Times New Roman', Times, serif;
+
+}
+
+header  {
+    /* justify-content: right; */
+    display: inline;
+    
+}
+
+#icons {
+    position: absolute;
+    left: 60%;
+    top: 2% ;
+}
+main section:nth-child(1){
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+#lists{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-image:url("/img/list-bg.png");
+    
+}
+ul{
+padding: 50px;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+list-style-type:circle;
+}
+#last{
+    display: grid;
+    grid-template-columns: 100px 625px auto;
+
+}
+footer{
+    width: 900px;
+    height: 80px;
+    padding: 20px 300px;}
+    a{
+        display: inline-block;
+        background-color: brown;
+        border-style: solid;
+        border-width: 20px;
+        text-decoration: none;
+        color: white;
+        block-size: 82px;
+        margin-block: 26px;
+        margin-right: -20px;
+
+    }
+
+    div p {
+        color: rgb(187, 192, 190);
+        font-size: 10px;
+    }
+    div h3{
+    font-weight: 800;
+    font: height 800px; ;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    }
+    header section{
+        padding-left: 70px;
+    }
+    main img {
+        padding-top: 30px;
+    }
+    main section div:nth-child(2){
+        display: inline;
+    }
+    #print{
+        display: grid ;
+        justify-content: end;
+        justify-items: center;
+    }
+    header div {
+        display: grid;
+        grid-template-columns: 50px 120px;
+   
+    }
+    hr{
+        height: 15px;
+        margin-top: 15px;
+        /* background-color:rgba(204, 197, 197, 0.884) ; */
+        background-image: url("/img/hr-img.png") ;
+      
+    }
+    #share{
+        font: message-box;
+        padding-left: 32px;
+        padding-top: 14px;
+        font-size: 12px;        
+    }
+    footer img {
+    padding-left:110px;
+    }
+    footer p{
+        color: gray;
+        font-size: 14px
+    }
+    #p1{
+        padding-left: 19px;
+    }
+    #p2{
+        padding-left: 50px;
+
+    }
+    #pp{
+        margin-top: 33px;
+        margin-left: -48px;
+    }
